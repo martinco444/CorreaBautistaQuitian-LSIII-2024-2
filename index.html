@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #5435bb, #7bfedb); 
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0;
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .card iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-bottom: 5px solid #03246d; 
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .card-content h3 {
+      margin: 10px 0;
+      font-size: 1.5em;
+      color: #110056;
+    }
+
+    .card-content p {
+      color: #000000;
+      font-size: 1.1em;
+    }
+
+    .card-content p:hover {
+      color: #675fff;
+    }
+
+    .card:hover .card-content {
+      background: #dddcff;
+      color: white;
+    }
+  </style>
+
+<body>
+
+  <h1>Galería de Modelos 3D</h1>
+
+  <div class="card-container">
+   
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/500f8c3f740c43589f46f8ef339de183/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Modelo by Duznot</h3>
+        <p>Soot Sprite (すすワタリ).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/ff3c85bca14b473398d25a9a167fedf3/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Modelo by se7en23</h3>
+        <p>Guardian Robot (Castle in the Sky).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/db964e1ad4c041e4b83eadf46e3eb7ce/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Modelo by Akiko.Tomiyoshi</h3>
+        <p>Nausicaa - Ghibli.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/1d6d33fd861d45c78e5dd0d46e251199/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Model by menglow</h3>
+        <p>Violin - Your Lie in April.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/c20ad5fcd87d486ab760a7726212d9c7/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Model by inna_inna</h3>
+        <p>Chibi Totoro.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <iframe src="https://sketchfab.com/models/da573111f7bf48e89cb51a59115e80c0/embed" allowfullscreen></iframe>
+      <div class="card-content">
+        <h3>Model by morenogarciaalejandro07</h3>
+        <p>Navet.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
